@@ -18,7 +18,7 @@ let books = [
 ]
 
 for(let i = 0; i < books.length; i++){
-    let book = book[i];
+    let book = books[i];
     let bookInfo = book.title + 'by' + book.author;
     if(book.read){
         console.log("You have read " + book.title + " by "+ book.author)
