@@ -8,3 +8,6 @@ let recipie = {
  for (let i = 0; i < recipie.ingriedients.length; i++){
      console.log(recipie.ingriedients[i])
  }
+
+
+ 

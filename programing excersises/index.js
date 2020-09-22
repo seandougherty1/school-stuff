@@ -6,4 +6,4 @@ function multiply(num)
         console.log(num + ' * ' + i + ' = ' + result);
     
 }
-
+}
