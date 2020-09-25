@@ -1,15 +1,20 @@
 class Book{
-    constructor(){
+    constructor(book, author, genre, read,){
         this.book = book;
-        this.author =  author;
+        this.author = author;
         this.read = read;
+        this.genre = genre;
     }
     library(){
-        console.log(`${this.book} by ${this.author} and it has been ${this.read}` )
+        console.log(`${this.book} by ${this.author} and has it been read: ${this.read}` )
     }
     
 }
+const THRILLER = 'Thriller'
+const FANTASY = 'Fantasy'
+const BIOGRAPHY = 'Biography'
 
-let book1 = new book('American Phsyco', 'Bret Easton Ellis', true)
+let book1 = new Book('American Phsyco', 'Bret Easton Ellis', , true)
 
-book1.library
+book1.library()
+
